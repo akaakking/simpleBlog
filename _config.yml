@@ -14,10 +14,29 @@ direction: ltr
 # navigation menu. Optionally, you can add translations for the 'Key' in
 # languages/*.yml
 nav:
-  home: /
-  about: /about/
-  articles: /archives/
-  projects: http://github.com/probberechts
+  - name:
+    path: /
+    icon_path: /images/hi.svg
+    icon_desc: 你好
+  - name: 
+    path: /categories/code
+    icon_path: /images/coder.svg
+    icon_desc: 技术有关
+  - 
+    name: 
+    path: /categories/think
+    icon_path: /images/think.svg
+    icon_desc: 平时的思考
+  - 
+    name: 
+    path: /about/plan
+    icon_path: /images/plan.svg
+    icon_desc: 长短期规划，与长短期复盘
+  -
+    name: 
+    path: /archives/fun
+    icon_path: /images/fun.svg
+    icon_desc: 有趣的事情
 
 
 # Links to your social media accounts.
@@ -28,25 +47,8 @@ nav:
 # 'icon' value will be used as title when 'label' is missing.
 social_links:
   -
-    icon: github
-    link: http://github.com/probberechts/cactus-dark
-  -
-    icon: twitter
-    link: /
-  -
-    icon: facebook
-    link: /
-  -
     icon: mail
-    link: mailto:name@email.com
-  -
-    icon: mastodon
-    label: mastodon.social
-    link: https://mastodon.social/@alice
-  -
-    icon: mastodon
-    label: fosstodon.org
-    link: https://fosstodon.org/@alice
+    link: wangfeihong274@gmali.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -79,7 +81,7 @@ post:
 # Customize the copyright years
 # Note: if start_year/end_year not provided, will use current year.
 copyright:
-  start_year: 2016
+  start_year: 2024
   end_year:
 
 # Customize the 404 page
@@ -104,10 +106,10 @@ error_404:
 #   - gravatar: whether to use your Gravatar as the logo
 #   - grayout: whether to enable a hover effect on the logo
 logo:
-  enabled: true
+  enabled: false
   width: 50
   height: 50
-  url: /images/logo.png
+  url: 
   gravatar: false
   grayout: true
 
@@ -122,13 +124,13 @@ logo:
 #   - gravatar: whether to create a favicon from your Gravatar
 favicon:
   desktop:
-    url: /images/favicon.ico
+    url: https://avatars.githubusercontent.com/u/81509671?s=48&v=4
     gravatar: false
   android:
-    url: /images/favicon-192x192.png
+    url: https://avatars.githubusercontent.com/u/81509671?s=48&v=4
     gravatar: false
   apple:
-    url: /images/apple-touch-icon.png
+    url: https://avatars.githubusercontent.com/u/81509671?s=48&v=4
     gravatar: false
 
 # The color scheme that should be used to highlight codeblocks.
@@ -138,7 +140,7 @@ favicon:
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
 # Alternatively, add your own custom color scheme to source/css/_colors.
-colorscheme: dark
+colorscheme: classic
 
 # Maximal width of the page in rem units.
 page_width: 48

@@ -6,13 +6,19 @@
     <%= startYear >= endYear ? endYear : startYear + "-" + endYear %>
     <%= config.author || config.title %>
   </div>
+  
   <div class="footer-right">
     <nav>
-      <ul>
-        <% for (var i in theme.nav) { %><!--
-       --><li><a href="<%- url_for(theme.nav[i]) %>"><%= __('nav.'+i).replace("nav.", "") %></a></li><!--
-     --><% } %>
-      </ul>
+      find me on
+      <a href="mailto:wangfeihong274@gmail.com">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://t.me/akaakking">
+        <i class="fab fa-telegram-plane"></i>
+      </a>
+      or
+      <i class="fa-brands fa-weixin"></i>
+      w18792721833
     </nav>
   </div>
 </footer>
