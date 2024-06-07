@@ -82,14 +82,14 @@ post:
 # Note: if start_year/end_year not provided, will use current year.
 copyright:
   start_year: 2024
-  end_year:
+  end_year: 2026
 
 # Customize the 404 page
 # Options:
 #   - enabled: whether to enable the 404 page (404.html).
 error_404:
   enabled: true
-  title: "404 Page Not Found"
+  title: "404 Page Not Found （你来到了没有知识的荒原？"
   description: "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
 
 
